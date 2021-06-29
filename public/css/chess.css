@@ -1,0 +1,60 @@
+.board {
+	width: 560px;
+	height: 560px;
+	border: 20px solid #A67B1D;
+	margin-left: 30vw;
+	margin-top: 20px;
+}
+
+.square {
+	float: left;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.black {
+	background-color: #4E3A11;
+}
+
+.white {
+	background-color: #DCB560;
+}
+
+.figure {
+	font-size: 60px;
+	cursor: pointer;
+}
+
+.chess_container 
+{
+	background-color: #EFE78B;
+	width: 100%;
+	overflow:hidden;
+	min-height: 100vh;
+}
+
+.button_exit
+{
+	font-size: 18px;
+    color: white; 
+    border: none; 
+    padding: 14px 28px; /* Поля вокруг текста */
+    margin-bottom: 1rem; 
+    background: #656670; 
+    border-radius: 10px;
+}
+
+.button_exit:hover
+{
+	background: #150F16;
+	cursor: pointer;
+}
+
+.position_button
+{
+	margin-top: 20px;
+	margin-left: 45%;
+}
